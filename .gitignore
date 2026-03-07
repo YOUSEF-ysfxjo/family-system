@@ -24,6 +24,7 @@ wheels/
 venv/
 env/
 ENV/
+.venv/
 
 # Node
 node_modules/
@@ -90,3 +91,25 @@ build/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# PowerShell
+*.ps1xml
+profile.ps1
+Microsoft.PowerShell_profile.ps1
+
+# Uploads (runtime data)
+uploads/
