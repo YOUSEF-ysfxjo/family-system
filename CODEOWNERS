@@ -1,0 +1,25 @@
+# CODEOWNERS
+#
+# Each line is a file pattern followed by one or more owners.
+# Owners are matched against the files changed in a pull request.
+# The last matching pattern takes precedence.
+# See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for all files
+*                   @YOUSEF-ysfxjo
+
+# Python backend
+*.py                @YOUSEF-ysfxjo
+requirements.txt    @YOUSEF-ysfxjo
+
+# Frontend
+frontend/           @YOUSEF-ysfxjo
+package.json        @YOUSEF-ysfxjo
+package-lock.json   @YOUSEF-ysfxjo
+
+# GitHub configuration and templates
+.github/            @YOUSEF-ysfxjo
+
+# Documentation
+*.md                @YOUSEF-ysfxjo
+LICENSE             @YOUSEF-ysfxjo
