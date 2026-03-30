@@ -1,71 +1,16 @@
-# Family System Application
+# Family System
 
-A web application built with React frontend and Flask backend.
+A Python-based family management system — built as a collaborative learning project demonstrating OOP principles.
 
-## Project Structure
+## Features
 
-```
-hackathon-project/
-├── backend/               # Backend (Flask)
-│   ├── app/              # Application package
-│   │   ├── __init__.py   # Application factory
-│   │   └── routes.py     # Application routes
-│   ├── tests/            # Test files
-│   ├── requirements.txt  # Python dependencies
-│   └── wsgi.py          # WSGI entry point
-│
-├── frontend/             # Frontend (React)
-│   ├── public/           # Static files
-│   ├── src/              # React source code
-│   ├── .gitignore
-│   ├── package.json
-│   └── README.md
-│
-└── templates/            # HTML templates
-    ├── base.html
-    ├── index.html
-    └── results.html
-```
+- Family member management with relationship tracking
+- Object-oriented design: inheritance, encapsulation, polymorphism
+- Data persistence
 
-## Setup Instructions
+## Stack
 
-### Backend Setup
+Python
 
-1. Create a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: .\venv\Scripts\activate
-   ```
-
-2. Install dependencies:
-   ```bash
-   cd backend
-   pip install -r requirements.txt
-   ```
-
-3. Run the Flask development server:
-   ```bash
-   python wsgi.py
-   ```
-
-### Frontend Setup
-
-1. Install Node.js dependencies:
-   ```bash
-   cd frontend
-   npm install
-   ```
-
-2. Start the development server:
-   ```bash
-   npm start
-   ```
-
-## Development
-
-- Backend runs on `http://localhost:5000`
-- Frontend runs on `http://localhost:3000`
-
-## Deployment
-
-For production deployment, you'll need to build the React app and serve it through the Flask server.
+---
+*Collaborative project with [@Manar567](https://github.com/Manar567)*
